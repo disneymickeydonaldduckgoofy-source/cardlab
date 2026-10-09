@@ -1,0 +1,18 @@
+{
+  "id": "./",
+  "name": "Card Lab",
+  "short_name": "Card Lab",
+  "description": "名刺管理アプリ Card Lab",
+  "start_url": "./?launch=1",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#0f1115",
+  "lang": "ja",
+  "icons": [
+    { "src": "cl1-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "cl1-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "cl1-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

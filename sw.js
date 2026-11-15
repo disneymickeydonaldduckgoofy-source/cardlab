@@ -1,6 +1,6 @@
 // Card Lab launcher: network-first, falls back to cache when offline.
-const CACHE = "cardlab-launcher-v1";
-const CORE = ["./", "index.html", "manifest.webmanifest", "cl1-32.png", "cl1-180.png", "cl1-192.png", "cl1-512.png", "cl1-maskable-512.png"];
+const CACHE = "cardlab-launcher-v2";
+const CORE = ["./", "index.html", "manifest.webmanifest", "cl2-32.png", "cl2-180.png", "cl2-192.png", "cl2-512.png", "cl2-maskable-512.png"];
 
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(CORE)).then(() => self.skipWaiting()));
